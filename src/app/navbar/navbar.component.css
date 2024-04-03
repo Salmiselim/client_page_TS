@@ -1,0 +1,85 @@
+/* Logo styling */
+.navbar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: rgb(0,140,255);
+  box-shadow: 0 0 25px rgb(0,140,255);
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(0,140,255),
+              0 0 25px rgb(0,140,255),
+              0 0 50px rgb(0,140,255),
+              0 0 100px rgb(0,140,255);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo > a{  text-decoration: none;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.logo img {
+  width: 220px;
+  height: 90px;
+  margin-right: 10px;
+}
+/* Menu items styling */
+.menu-items {
+  list-style: none;
+  display: flex;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 520;
+
+  color: rgb(90, 89, 89);
+}
+
+.menu-items li {
+  margin: 0 5rem 0 -2rem;
+}
+.menu-items li >a{
+  text-decoration: none;
+  color: rgb(90, 89, 89);
+}
+.menu-items li >a:hover{
+  color: rgb(0, 153, 255);
+}
+/* Call to action button styling */
+.cta-button {
+  background-color: rgb(0, 153, 255);
+  color: rgb(0, 0, 0);
+  height: 35px ;
+  padding: 0px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.ctb-button {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(0, 153, 255);
+  text-align: center;
+  height: 35px;
+  padding: 0px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
