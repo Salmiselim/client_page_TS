@@ -1,3 +1,10 @@
-<h1>welcomee {{userName}}</h1>
-<button (click)="clearLocalStorage()">disconnect</button>
-
+<h1>Welcome {{userName}}</h1>
+<h2>Préparer votre demande</h2>
+<h3>Choisir un service :</h3>
+<div class="button-container">
+    <button (click)="nav1()">Appel du fond</button>
+    <button >Lévée du fond</button>
+    <button>Mise à disposition</button>
+    <button>Echange</button>
+</div>
+<button class="disconnect-button" (click)="clearLocalStorage()">Disconnect</button>
